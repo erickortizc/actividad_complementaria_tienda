@@ -1,0 +1,10 @@
+<p>Tus articulos</p>
+<div class="contenido">
+    <table border="1" class="">
+        <tr><td>Imagen</td> <td>Precio</td></tr>
+        <tr  *ngFor="let art of datos">
+            <td><img src="{{art.imagen}}" class="imagen"></td>
+            <td>{{art.precio}}</td>
+        </tr>
+    </table>
+</div>
